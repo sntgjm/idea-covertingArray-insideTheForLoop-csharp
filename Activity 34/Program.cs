@@ -10,6 +10,11 @@ namespace Activity_3
     {
         static void Main(string[] args)
         {
+            int[] numbers = new int[3];
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
